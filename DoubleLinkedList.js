@@ -24,7 +24,7 @@ class DoubleLinkedList {
     }
 
     pop() {
-        if (this.tail.prev) {
+        if (this.tail !== this.head) {
             const newTail = this.tail.prev;
             newTail.next = undefined;
             this.tail = newTail;
@@ -185,7 +185,7 @@ class DoubleLinkedList {
         }
 
         while (element != undefined) {
-            console.log(`${counter}. Prev:${element?.prev?.value},Value: ${element?.value}, Next: ${element?.next?.value}`);
+            console.log(`${counter}. Prev:${element?.prev?.value} , Value: ${element?.value} , Next: ${element?.next?.value}`);
 
             if (element === this.tail) {
                 break;
@@ -193,8 +193,6 @@ class DoubleLinkedList {
 
             element = element.next;
             counter++;
-
-
         }
     }
 }
