@@ -1,0 +1,24 @@
+{
+  "name": "doublelinkedlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSD-0723/Ammar-Hararah-DoubleLinkedList.git"
+  },
+  "keywords": [
+    "Double",
+    "Linked",
+    "List"
+  ],
+  "author": "ammarhararah@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSD-0723/Ammar-Hararah-DoubleLinkedList/issues"
+  },
+  "homepage": "https://github.com/JSD-0723/Ammar-Hararah-DoubleLinkedList#readme"
+}
