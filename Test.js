@@ -19,8 +19,8 @@ class Test{
         for (let i = 0; i < testContentLength - 1 ; i++) {
             list.push(i);
         }
-        console.log("--- Added the Following Elements: ---")
         console.log(list.getAllElements());
+        console.log("--- Done Adding Test ---")
     }
     
     testPopFunction(list){
@@ -46,5 +46,4 @@ class Test{
 }
 
 
-
-export default Test;
+module.exports = Test;

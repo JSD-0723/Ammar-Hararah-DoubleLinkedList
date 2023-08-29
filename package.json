@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/JSD-0723/Ammar-Hararah-DoubleLinkedList/issues"
   },
-  "homepage": "https://github.com/JSD-0723/Ammar-Hararah-DoubleLinkedList#readme"
+  "homepage": "https://github.com/JSD-0723/Ammar-Hararah-DoubleLinkedList#readme",
+  "dependencies": {}
 }

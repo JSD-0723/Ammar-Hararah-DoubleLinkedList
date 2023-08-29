@@ -1,5 +1,5 @@
-import DoubleLinkedList from "./DoubleLinkedList";
-import Test from "./Test";
+const DoubleLinkedList = require("./DoubleLinkedList.js");
+const Test = require("./Test.js");
 
 function main(){
     //Init Double Linked List

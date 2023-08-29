@@ -1,4 +1,4 @@
-import Node from "./Node";
+const Node = require("./Node");
 
 class DoubleLinkedList {
     constructor() {
@@ -198,5 +198,4 @@ class DoubleLinkedList {
         }
     }
 }
-
-export default DoubleLinkedList;
+module.exports = DoubleLinkedList;
