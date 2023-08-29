@@ -1,4 +1,6 @@
-class doubleLinkedList {
+import Node from "./Node";
+
+class DoubleLinkedList {
     constructor() {
         this.head = new Node(undefined, undefined);
         this.tail = this.head;
@@ -197,10 +199,4 @@ class doubleLinkedList {
     }
 }
 
-class Node {
-    constructor(prev, value, next = undefined) {
-        this.value = value;
-        this.prev = prev;
-        this.next = next;
-    }
-}
+export default DoubleLinkedList;
